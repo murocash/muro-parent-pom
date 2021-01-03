@@ -5,7 +5,7 @@
 
 	<groupId>cash.muro</groupId>
 	<artifactId>muro-parent-pom</artifactId>
-	<version>0.1.0-alpha</version>
+	<version>0.1.0-alpha2</version>
 	<packaging>pom</packaging>
 
 	<name>Muro.Cash Parent POM</name>
@@ -26,6 +26,16 @@
 		</license>
 	</licenses>
 
+	<properties>
+		<revision>0.1.0-alpha2</revision>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<lombok.version>1.18.16</lombok.version>
+		<gpg.keyname>985B27F8FC8D6E62</gpg.keyname>
+		<java.version>11</java.version>
+		<junit.jupiter.version>5.7.0</junit.jupiter.version>
+		<spring.security.version>5.4.2</spring.security.version>
+	</properties>
+	
 	<scm>
 		<connection>scm:git@github.com:murocash/muro.cash.git</connection>
 		<developerConnection>scm:git@github.com:murocash/parent-pom.git
@@ -44,16 +54,6 @@
 			</url>
 		</repository>
 	</distributionManagement>
-
-	<properties>
-		<revision>0.1.0-alpha</revision>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<lombok.version>1.18.16</lombok.version>
-		<gpg.keyname>985B27F8FC8D6E62</gpg.keyname>
-		<java.version>11</java.version>
-		<junit.jupiter.version>5.7.0</junit.jupiter.version>
-		<spring.security.version>5.4.2</spring.security.version>
-	</properties>
 
 	<dependencies>
 		<dependency>
